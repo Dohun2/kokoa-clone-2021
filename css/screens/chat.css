@@ -66,12 +66,23 @@
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: var(--yellow);
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;
   margin-right: 5px;
   border-top-left-radius: 0px;
+  color: white;
+}
+
+.message__bubble--own {
+  background-color: var(--yellow);
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  margin-right: 5px;
+  border-top-left-radius: 0px;
+  color: white;
 }
 
 .message__info {
